@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+body::-webkit-scrollbar-thumb {
+  background-color: silver;
+  outline: 0px solid grey;
+}
+
 *
 {
   margin: 0;
@@ -11,6 +16,7 @@ body
 {
   background: #efefef;
 }
+
 
 .login-header
 {
@@ -133,4 +139,12 @@ body
 .reg-button:hover
 {
   background: #2b799e;
+}
+#login-checkbox
+{
+  margin-left: 20px;
+}
+#help
+{
+  margin-left: 20px;
 }
