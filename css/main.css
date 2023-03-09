@@ -335,3 +335,21 @@ h3
   width: 20px;
   margin-left: 390px;
 }
+
+.article-navigation
+{
+  margin-top: 15px;
+  position: fixed;
+  width: 200px;
+  right: 300px;
+  background: #ffff;
+}
+.article-navigation ul
+{
+    margin: 20px 30px;
+}
+.navigation-li
+{
+
+  /* list-style-type: none; */
+}
